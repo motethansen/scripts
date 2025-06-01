@@ -5,7 +5,7 @@
 # Configuration
 BACKUP_DRIVE="/Volumes/X10Pro"  # Replace with your external drive's mount point
 BACKUP_DIR="$BACKUP_DRIVE/MacBookPro_Backup/Backup/$(whoami)"  # Backup directory with username
-ONEDRIVE_PATH="$HOME/Library/CloudStorage/OneDrive-JamesCookUniversity"  # Actual OneDrive path
+
 SOURCE_DIRS=(                      # List of folders to back up (relative to $HOME)
     "Documents"
     "Desktop"
